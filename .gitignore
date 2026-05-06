@@ -1,0 +1,22 @@
+# Working files (not part of release)
+CLAUDE.md
+skills/
+
+# Generated data and outputs
+eval/data/
+output/
+prefix_embeddings.pt
+*.pt
+
+# Logging
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
