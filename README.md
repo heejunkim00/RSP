@@ -113,10 +113,6 @@ GPUS=0,1,2,3 bash train/train_dapo_rsp.sh    # +RSP
 | Loss aggregation | token-mean | token-mean |
 | Save / test freq, epochs | 10 / 10, 13 | 10 / 10, 13 |
 
-Pretrained DAPO and DAPO+RSP checkpoints (steps 10–100) are available at
-[rsp-anonymous-2026/RandomSoftPrompt](https://huggingface.co/rsp-anonymous-2026/RandomSoftPrompt)
-for evaluation without retraining.
-
 ### Evaluate
 
 ```bash
