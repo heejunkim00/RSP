@@ -75,8 +75,8 @@ bash sft/run_sft.sh rsp 42            # collect with RSP -> SFT -> evaluate
 bash sft/run_sft.sh baseline 42       # same without RSP
 ```
 
-The fixed hard subset used in the paper (32,737 problems the model solves at most once in
-4 clean rollouts) ships in `sft/data/`. To rebuild it, or to build one for another model:
+The fixed hard subset used in the paper ships in `sft/data/`. To rebuild it, or to build
+one for another model:
 
 ```bash
 python sft/collect_rollout.py extract --model Qwen/Qwen2.5-Math-7B-Instruct \
