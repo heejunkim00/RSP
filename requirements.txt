@@ -1,0 +1,27 @@
+# Core (eval.py, scripts/)
+torch==2.9.0
+transformers==4.56.2
+accelerate==1.13.0
+datasets==5.0.0
+safetensors==0.7.0
+numpy==2.2.6
+sympy==1.14.0
+latex2sympy2_extended==1.11.0
+antlr4-python3-runtime==4.11.1
+word2number==1.1
+regex
+Pebble==5.2.1
+timeout-decorator==0.5.0
+tqdm
+matplotlib
+
+# Rejection-sampling SFT (sft/)
+vllm==0.11.2
+pandas==3.0.5
+pyarrow==25.0.0
+mathruler==0.1.0
+huggingface-hub
+
+# Optional
+# flash-attn==2.8.3      # faster SFT; pass --attn_implementation sdpa to sft_train.py without it
+# wandb                  # --use_wandb / --wandb_project
